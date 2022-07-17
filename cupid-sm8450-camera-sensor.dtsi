@@ -265,11 +265,6 @@
 		};
 	};
 };
-
-&cam_csiphy2{
-	compatible = "qcom,csiphy-v2.1.0-xiaomi-l3", "qcom,csiphy";
-};
-
 &soc {
 	led_flash_triple_rear: qcom,camera-flash@1 {
 		cell-index = <1>;
